@@ -12,4 +12,4 @@ from django.shortcuts import render
     #nao esqueça de adiconar seu app nas settings
 
 def home(request): 
-   return render (request, 'recipes/home.html')
+   return render (request, 'recipes/pages/home.html')
